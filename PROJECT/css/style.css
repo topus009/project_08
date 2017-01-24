@@ -1,0 +1,446 @@
+/*          TEXT STYLE               		   */
+body {
+  font-family: "MyriadProSemiBold";
+  font-size: 14px;
+  line-height: 22px;
+}
+h1 {
+  font-family: "MyriadProSemiBold";
+  font-size: 42px;
+  line-height: 51px;
+  color: #5DCAF3;
+}
+h2 {
+  font-family: "MyriadProSemiBold";
+  font-size: 25px;
+  line-height: 24px;
+}
+h3 {
+  font-family: "MyriadProBold";
+  font-size: 18px;
+  line-height: 22px;
+}
+.lead {
+  font-family: "MyriadProSemiBold";
+  font-size: 16px;
+  line-height: 24px;
+}
+.sign {
+  font-family: "MyriadProRegular";
+  font-size: 12px;
+  line-height: 20px;
+  color: #9B9B9B;
+}
+a {
+  font-family: "MyriadProRegular";
+  font-size: 14px;
+  line-height: 22px;
+  color: #5DCAF3;
+  text-decoration: underline;
+}
+/*          RESPONCIVE                         */
+@media screen and (max-width: 1000px) {
+h1 {
+  font-size: 40px;
+  line-height: 48px;
+}
+h2 {
+  font-size: 23px;
+  line-height: 24px;
+}}
+@media screen and (max-width: 375px) {
+h1 {
+  font-size: 30px;
+  line-height: 37px;
+}
+h2 {
+  font-size: 23px;
+  line-height: 24px;
+}}
+/*          WHITE BUTTON with ITEM COUNT       */
+.button-white {
+	width: 154px;
+	height: 37px;
+  background: #F3F3F3;
+  transition: 0.2s all;
+  transform: skew(-10deg);
+	border-radius: 5px;
+  font-family: "MyriadProSemiBold";
+  cursor: pointer;
+  border-width: 0px;
+  outline:none;
+}
+.button-white:hover {
+  background: #E8E8E8;
+}
+.button-white:active {
+  background: #D8D8D8;
+}
+.button-white .button-left {
+  position: relative;
+}
+.button-white .button-left svg {
+	position: absolute;
+	top:-7px;
+  left:20px;
+}
+.button-white .button-right {
+	padding-top: 5px;
+	padding-left:60px;
+}
+.button-white .button-right-up {
+	transform: skew(10deg);
+  font-size: 9px;
+  font-weight: bolder;
+  position: absolute;
+  top:7px;
+  color:#8E8E8E;
+}
+.button-white .button-right-down {
+	transform: skew(10deg);
+  position: absolute;
+  top:15px;
+  color:#373737;
+}
+.button-white .button-right-down .item-count {
+	padding-left:1px;
+}
+/*          BLACK BUTTON with ITEM COUNT       */
+.button-black {
+	width: 154px;
+	height: 37px;
+  background: #282828;
+  transition: 0.2s all;
+  transform: skew(-10deg);
+	border-radius: 5px;
+  font-family: "MyriadProSemiBold";
+  cursor: pointer;
+  border-width: 0px;
+  outline:none;
+}
+.button-black:hover {
+  background: #181818;
+}
+.button-black:active {
+  background: #000000;
+}
+.button-black .button-black-left {
+  position: relative;
+}
+.button-black .button-black-left svg {
+	position: absolute;
+	top:-7px;
+  left:20px;
+}
+.button-black .button-black-right {
+	padding-top: 7px;
+	padding-left:60px;
+}
+.button-black .button-black-right-up {
+	transform: skew(10deg);
+  font-size: 9px;
+  font-weight: bolder;
+  position: absolute;
+  top:5px;
+  color:#8E8E8E;
+}
+.button-black .button-black-right-down {
+	transform: skew(10deg);
+  position: absolute;
+  top:15px;
+  color:white;
+}
+.button-black .button-black-right-down .black-item-count {
+	padding-left:1px;
+}
+/*          CART with ITEM COUNT               */
+.singe-cart {
+  position: relative;
+  outline:none;
+}
+.single-cart-item {
+  position: absolute;
+  top:-10px;
+  left:10px;
+  background-color: #C7F727;
+  border-radius: 10px;
+  min-width:5px;
+  line-height: 15px;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: "MyriadProSemiBold";
+  color: #4A4A4A;
+}
+/*          LIME BUTTON                        */
+.button-lime {
+  width: 185px;
+  height: 50px;
+  background: #C9F725;
+  transition: 0.2s all;
+  transform: skew(-10deg);
+  border-radius: 5px;
+  font-family: "MyriadProBold";
+  font-size: 20px;
+  cursor: pointer;
+  border-width: 0px;
+  outline:none;
+  font-weight: bolder;
+}
+.button-lime:hover {
+  background: #BEEA23;
+}
+.button-lime:active {
+  background: #B5DF23;
+}
+.button-lime-text {
+  transform: skew(10deg);
+  color: #363636;
+}
+/*          PURPLE BUTTON - All characters     */
+.button-purple {
+  width:270px;
+  height:35px;
+  background-color: #9B6AF9;
+  color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-width: 0px;
+  position: relative;
+  outline:none;
+}
+.button-purple-text {
+  border-bottom: 1px dashed white;
+  font-family: "MyriadProSemiBold";
+  font-size: 14px;
+  position: absolute;
+  top:6px;
+  left:40px;
+}
+.button-purple:hover{
+  background: #8354DE;
+}
+.button-purple:active{
+  background: #7541D2;
+}
+/*          PURPLE BUTTON - Triangle           */
+.button-purple-angle{
+  position: relative;
+  position: absolute;
+  cursor: pointer;
+	width:245px;
+	height:45px;
+  border: 2px solid #9B6AF9;
+	border-radius: 5px 0 0 5px;
+  border-right:transparent;
+	color:#9B6AF9;
+	background-color:white;
+  outline:none;
+}
+.button-purple-angle:before{
+  content: "";
+  position: absolute;
+  right: -15.5px;
+	top: 5px;
+  width: 29.5px;
+  height: 29.5px;
+  transform: rotate(45deg);
+	border:2px solid #9B6AF9;
+	border-left:transparent;
+	border-bottom:transparent;
+	background-color:white;
+  outline:none;
+}
+.button-purple-angle-text {
+	font-weight:bold;
+	font-family:sans-serif;
+  font-size: 17px;
+	position: absolute;
+	top: 10.5px;
+	left: 15px;
+}
+.button-purple-angle:hover{
+	background-color: #8354DE;
+	color: white;
+	border-color: #8354DE;
+}
+.button-purple-angle:hover:before{
+	background-color: #8354DE;
+	border-color: #8354DE;
+}
+.button-purple-angle:active{
+	background-color: #7541D2;
+	border-color: #7541D2;
+}
+.button-purple-angle:active:before{
+	background-color: #7541D2;
+	border-color: #7541D2;
+}
+/*          PURPLE BUTTON - Scew               */
+.button-purple-scew {
+  width: 170px;
+  height: 45px;
+  background: #9B6AF9;
+  transition: 0.2s all;
+  transform: skew(-10deg);
+  border-radius: 5px;
+  font-family: "MyriadProRegular";
+  font-size: 20px;
+  cursor: pointer;
+  border-width: 0px;
+  outline:none;
+  font-weight: bold;
+}
+.button-purple-scew:hover {
+  background: #8354DE;
+}
+.button-purple-scew:active {
+  background: #7541D2;
+}
+.button-purple-scew-text {
+  transform: skew(10deg);
+  color: white;
+}
+/*          GREY BUTTON                        */
+.button-grey {
+  width: 106px;
+  height: 50px;
+  background: #4A4A4A;
+  transition: 0.2s all;
+  transform: skew(-10deg);
+  border-radius: 5px;
+  font-family: "MyriadProRegular";
+  font-size: 20px;
+  cursor: pointer;
+  border: 2px solid white;
+  outline:none;
+}
+.button-grey:hover {
+  border-color: #5DCAF3;
+}
+.button-grey:active {
+  border-color: #25AEE4;
+}
+.button-grey-text {
+  transform: skew(10deg);
+  color: white;
+}
+/*          VK FB Insta LOGO                   */
+/*          VK LOGO                            */
+.vk-logo {
+  border-color: transparent;
+  border-radius: 15px;
+  border-width: 0px;
+  width:30px;
+  height:30px;
+  position: relative;
+  outline:none;
+}
+.vk-logo svg {
+  position: absolute;
+  top: 5.5px;
+  left: 4.5px;
+}
+.vk-logo:hover {
+  background-color: #1F77AB;
+}
+.vk-logo:active {
+  background-color: #1F77AB;
+  opacity: 0.7;
+}
+/*          FB LOGO                            */
+.fb-logo {
+  border: 0px solid transparent;
+  border-radius: 15px;
+  width:30px;
+  height:30px;
+  position: relative;
+  outline:none;
+}
+.fb-logo:hover {
+  background-color: #315DAC;
+}
+.fb-logo:active {
+  background-color: #315DAC;
+  opacity: 0.7;
+}
+.fb-logo svg {
+  position: absolute;
+  top: 6.5px;
+  left: 6.5px;
+}
+/*          INSTAGRAMM LOGO                    */
+.insta-logo {
+  border: 0px solid transparent;
+  border-radius: 15px;
+  width:30px;
+  height:30px;
+  position: relative;
+  outline:none;
+}
+.insta-logo svg {
+  position: absolute;
+  top: 6.5px;
+  left: 6.5px;
+}
+.insta-logo:hover {
+  background-color: #005D89;
+}
+.insta-logo:active {
+  background-color: #005D89;
+  opacity: 0.7;
+}
+/*          TRACH BIN                          */
+.trash-logo {
+  background-color: transparent;
+  border: 0px solid transparent;
+  width:56px;
+  height:56px;
+  outline:none;
+  background-image: url(../img/trash-logo.svg);
+}
+.trash-logo:hover {
+  background-color: #f9c2c0;
+  border: 0px solid transparent;
+  border-radius: 28px;
+  background-image: url(../img/trash-logo-light-red.svg);
+}
+.trash-logo:active {
+  background-color: #FC6D67;
+  border: 0px solid transparent;
+  border-radius: 28px;
+  background-image: url(../img/trash-logo-red.svg);
+}
+.trash-logo, .trash-logo:hover, .trash-logo:active {
+  background-size: 30px 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/*          CHESN-OK                           */
+.logo-main {
+  font-family: "MyriadProSemiBold";
+  position: relative;
+}
+.logo-main .logo-chesn {
+  font-size: 62px;
+}
+.logo-main .logo-ok {
+  font-size: 24px;
+  color: white;
+  position: inherit;
+  top: -57px;
+  left: 161px;
+}
+.logo-main svg {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -25px;
+  left: 155px;
+}
+.logo-main .logo-down {
+  position: absolute;
+  bottom: 5px;
+  left: 3px;
+}
+/*          END                                */

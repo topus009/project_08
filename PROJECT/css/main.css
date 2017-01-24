@@ -1,0 +1,249 @@
+* {
+  margin:0;
+  padding:0;
+}
+#print {
+  position: absolute;;
+  filter: invert();
+  z-index: 1;
+  opacity: 0.5;
+  top:0;
+  left:0;
+}
+/* ------------------------------------------- */
+/*          CHESN-OK                           */
+.logo-main {
+  top: 56px;
+  left: 360px;
+}
+/* ------------------------------------------- */
+.header_01 {
+  color: #9B9B9B;
+  position: absolute;
+  left: 616px;
+  top: 48px;
+}
+.header_02 {
+  color: #9B9B9B;
+  position: absolute;
+  left: 616px;
+  top: 70px;
+}
+.header_03 {
+  color: #9B9B9B;
+  position: absolute;
+  left: 772px;
+  top: 48px;
+}
+.header_04 {
+  color: #9B9B9B;
+  position: absolute;
+  left: 846px;
+  top: 47px;
+}
+.header_05 {
+  color: #9B9B9B;
+  position: absolute;
+  left: 846px;
+  top: 70px;
+  line-height: 15px;
+}
+.header_06 {
+  position: absolute;
+  left: 978px;
+  top: 48px;
+}
+.header_07 {
+  position: absolute;
+  left: 1189px;
+  top: 48px;
+}
+.header_08 {
+  position: absolute;
+  left: 978px;
+  top: 71px;
+  font-size: 18px;
+}
+.header_08 span {
+  font-size: 28px;
+}
+.header_09 {
+  position: absolute;
+  left: 1189px;
+  top: 71px;
+  font-size: 18px;
+}
+.header_09 span {
+  font-size: 28px;
+}
+.button-white {
+  position: absolute;
+  left: 1403px;
+  top: 53px;
+}
+/*          MENU                              */
+/*       ----------------------                */
+.header-menu {
+  position: absolute;
+  top: 120px;
+  left: 360px;
+  display: table-row;
+}
+.header-menu * {
+  vertical-align: middle;
+}
+/*       ----------- 1 -----------                */
+.header-menu .header-bike {
+  display: table-cell;
+  padding-right: 44px;
+  border-right: 2px solid #F2F2F2;
+}
+.header-menu .header-bike img {
+  height: 52px;
+  padding-right: 10px;
+}
+.header-menu .header-bike a {
+  text-decoration: none;
+  color: #5A5A5A;
+  font-size: 18px;
+  line-height: 22px;
+  border-bottom: 1px solid #DFDFDF;
+}
+/*       ------------- 2 ---------                */
+.header-menu .header-kit {
+  display: table-cell;
+  padding-right: 34px;
+  padding-left: 14px;
+  border-right: 2px solid #F2F2F2;
+}
+.header-menu .header-kit img {
+  height: 58px;
+  padding-right: 9px;
+}
+.header-menu .header-kit a {
+  text-decoration: none;
+  color: #5A5A5A;
+  font-size: 18px;
+  line-height: 22px;
+  border-bottom: 1px solid #DFDFDF;
+}
+/*       ------------- 3 ---------                */
+.header-menu .header-components {
+  display: table-cell;
+  padding-right: 39px;
+  padding-left: 24px;
+  border-right: 2px solid #F2F2F2;
+}
+.header-menu .header-components img {
+  height: 60px;
+  padding-right: 7px;
+}
+.header-menu .header-components a {
+  text-decoration: none;
+  color: #5A5A5A;
+  font-size: 18px;
+  line-height: 22px;
+  border-bottom: 1px solid #DFDFDF;
+}
+/*       ------------- 4 ---------                */
+.header-menu .header-config {
+  display: table-cell;
+  padding-right: 34px;
+  padding-left: 20px;
+  border-right: 2px solid #F2F2F2;
+}
+.header-menu .header-config img {
+  height: 40px;
+  opacity: 0.5;
+  padding-right: 22px;
+}
+.header-menu .header-config a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  line-height: 22px;
+  border-bottom: 1px solid #9B9B9B;
+  opacity: 0.5;
+}
+/*       ------------- 5 ---------                */
+.header-menu .header-services {
+  display: table-cell;
+  padding-left: 28px;
+}
+.header-menu .header-services img {
+  height: 48px;
+  padding-right: 14px;
+}
+.header-menu .header-services a {
+  text-decoration: none;
+  color: #5A5A5A;
+  font-size: 18px;
+  line-height: 22px;
+  border-bottom: 1px solid #DFDFDF;
+}
+/*       ----------------------                */
+/*              DISCOUNT                       */
+.discount {
+  position: absolute;;
+  top: 210px;
+  left: 360px;
+  display: table-row;
+}
+.discount * {
+  text-decoration: none;
+  font-family: "MyriadProSemiBold";
+  font-style: italic;
+  font-size: 20px;
+}
+.discount .discount-1 {
+  display: table-cell;
+  padding-right: 13px;
+}
+.discount .discount-1 a {
+  position: absolute;
+  top: 5px;
+  left: 20px;
+}
+.discount .discount-1 img {
+  height:55px;
+  border-radius: 5px;
+}
+.discount .discount-2 {
+  display: table-cell;
+  padding-right: 13px;
+}
+.discount .discount-2 a {
+  position: absolute;
+  top: 14px;
+  left: 500px;
+}
+.discount .discount-2 img {
+  height:55px;
+}
+.discount .discount-3 {
+  display: table-cell;
+}
+.discount .discount-3 a {
+  position: absolute;
+  top: 5px;
+  left: 828px;
+}
+.discount .discount-3 img {
+  height:55px;
+}
+/*              BIKE-TITLE                     */
+.bike-title {
+  position: absolute;
+  top: 295px;
+  left: 765px;
+}
+.bike-title h1 {
+  border-bottom: 1px solid #DFDFDF;
+  border-top: 5px dashed red;
+
+
+
+}
+.bike-title div {
+  text-align: center;
+}
